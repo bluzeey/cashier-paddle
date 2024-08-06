@@ -23,6 +23,11 @@ trait PerformsCharges
         return Checkout::customer($customer, is_array($prices) ? $prices : [$prices => $quantity]);
     }
 
+    public function checkoutExistingCustomer($customer, $prices, int $quantity = 1){
+
+        return Checkout::customer($customer, is_array($prices) ? $prices : [$prices => $quantity]);
+    }
+
     /**
      * Subscribe the customer to a new plan variant.
      *

@@ -1,11 +1,11 @@
 {
-    "name": "laravel/cashier-paddle",
+    "name": "bluzeey/cashier-paddle",
     "description": "Cashier Paddle provides an expressive, fluent interface to Paddle's subscription billing services.",
     "keywords": ["laravel", "paddle", "billing"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel/cashier-paddle/issues",
-        "source": "https://github.com/laravel/cashier-paddle"
+        "issues": "https://github.com/bluzeey/cashier-paddle/issues",
+        "source": "https://github.com/bluzeey/cashier-paddle"
     },
     "authors": [
         {
@@ -15,6 +15,12 @@
         {
             "name": "Dries Vints",
             "email": "dries@laravel.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bluzeey/cashier-paddle"
         }
     ],
     "require": {
